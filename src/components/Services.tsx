@@ -1,10 +1,10 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Wall, Frame, Warehouse } from "lucide-react";
+import { BrickWall, Frame, Warehouse } from "lucide-react";
 
 const services = [
   {
-    icon: <Wall className="h-10 w-10 text-primary" />,
+    icon: <BrickWall className="h-10 w-10 text-primary" />,
     title: "Drywall",
     description: "Instalação de paredes, forros e revestimentos em drywall com agilidade, limpeza e acabamento perfeito."
   },
